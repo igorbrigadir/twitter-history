@@ -1,23 +1,29 @@
-date,change,description,link
-2009-04-30,Search,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
-2009-10-30,Lists,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
-2009-11-06,Retweets,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
-2009-11-12,What's Happening?,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
-2010-06-01,64-bit Tweet IDs, Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
-2010-06-08,t.co,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
-2011-05-25,TweetDeck,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
-2012-07-02,Transparency,The first Transparency Report published details on government requests,https://blog.twitter.com/2012/twitter-transparency-report 
-2012-08-16,APIv1.1,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api 
-2013-01-22,64-bit User IDs, User IDs became snowflake IDs like tweet IDs,https://blog.twitter.com/2013/moving-to-64-bit-twitter-user-ids 
-2013-05-30,Bigger Lists,Previously lists were limited to 500 users. Lists expanded to 5000 users.,https://twitter.com/TwitterForNews/status/340206438364368896 
-2013-11-12,Collections,Twitter introduced the ability to curate collections of tweets using TweetDeck. Initially called Custom Timelines.,https://blog.twitter.com/2013/introducing-custom-timelines-create-timelines-of-tweets-for-everyone 
-2014-11-18,Historical Tweets,Web Search on Twitter became capable of retrieving any historical tweet since 2006. API access is still restricted to a few days.,https://blog.twitter.com/2014/building-a-complete-tweet-index 
-2015-04-01,New Profiles,Significant changes to User Profiles,https://blog.twitter.com/2015/designing-the-new-twitter-profiles 
-2015-04-06,Quote Tweets,Other tweets can be embedded - introducing a new way to disseminate information.,https://twitter.com/twitter/status/585225218093932544 
-2015-08-06,Moments,Like Collections but emphasising media. News organisations were the first to access this feature.,https://blog.twitter.com/2015/moments-the-best-of-twitter-in-an-instant-0 
-2015-08-11,Full Archive Search,Commercial Access to Historical Public Tweets,https://blog.twitter.com/2015/full-archive-search-api 
-2015-10-06,Share Counts,Twitter removed the ability to see how many times a URL has been shared.,https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform 
-2015-11-03,Likes,Twitter Favourites changed to ``hearts'' or ``likes''.,https://blog.twitter.com/2015/hearts-on-twitter 
-2016-05-24,Extended Tweets,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
-2017-09-26,Longer Tweets,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
-2017-12-12,Threads,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
+date,change,type,description,link
+2006-03-21,First Tweet,UX,@jack just setting up my twttr,https://twitter.com/jack/statuses/20
+2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
+2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
+2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
+2009-11-12,What's Happening?,UX,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
+2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
+2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
+2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
+2011-08-27,URLs indexed,API,URLs first indexed for filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2012-01-26,Country Witheld Content,ORG,Introduction of Country Witheld Content (Country-specific Tweet or Account Blocks),https://blog.twitter.com/official/en_us/a/2012/tweets-still-must-flow.html
+2012-07-02,Transparency,ORG,The first Transparency Report published details on government requests,https://blog.twitter.com/2012/twitter-transparency-report 
+2012-08-16,APIv1.1,API,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api 
+2013-01-22,64-bit User IDs,API,User IDs became snowflake IDs like tweet IDs,https://blog.twitter.com/2013/moving-to-64-bit-twitter-user-ids 
+2013-05-30,Bigger Lists,API,Previously lists were limited to 500 users. Lists expanded to 5000 users.,https://twitter.com/TwitterForNews/status/340206438364368896 
+2013-11-12,Collections,UX,Twitter introduced the ability to curate collections of tweets using TweetDeck. Initially called Custom Timelines.,https://blog.twitter.com/2013/introducing-custom-timelines-create-timelines-of-tweets-for-everyone 
+2014-11-18,Historical Tweets,UX,Web Search on Twitter became capable of retrieving any historical tweet since 2006. API access is still restricted to a few days.,https://blog.twitter.com/2014/building-a-complete-tweet-index 
+2014-12-01,URL Expansion,API,Enhanced URL expansion metadata (website titles and descriptions),https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2015-02-17,Profile Geo,API,Profile Geo enrichment metadata and filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2015-04-01,New Profiles,UX,Significant changes to User Profiles,https://blog.twitter.com/2015/designing-the-new-twitter-profiles 
+2015-04-06,Quote Tweets,UX,Other tweets can be embedded - introducing a new way to disseminate information.,https://twitter.com/twitter/status/585225218093932544 
+2015-08-06,Moments,UX,Like Collections but emphasising media. News organisations were the first to access this feature.,https://blog.twitter.com/2015/moments-the-best-of-twitter-in-an-instant-0 
+2015-08-11,Full Archive Search,API,Commercial Access to Historical Public Tweets,https://blog.twitter.com/2015/full-archive-search-api 
+2015-10-06,Share Counts,API,Twitter removed the ability to see how many times a URL has been shared.,https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform 
+2015-11-03,Likes,UX,Twitter Favourites changed to ``hearts'' or ``likes''.,https://blog.twitter.com/2015/hearts-on-twitter 
+2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
+2017-09-26,Longer Tweets,UX,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
+2017-12-12,Threads,UX,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
