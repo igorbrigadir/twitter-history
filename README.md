@@ -1,17 +1,15 @@
 # twitter-history
-Tracking significant changes to the Twitter API or platform as a whole. Attempting to be accurate to the day for dates, and as exhaustive as possible. Main purpose was to have a reference for when to use certain filters in APIs, and originally created for keeping track of dates when writing about features. Edits / additions welcome.
+Tracking significant changes to the Twitter API or platform as a whole.
 
-This is a rabbit hole. Historically, things have appeared and disappeared over time, only to re-appear again, like [tweet link previews](https://twitter.com/IgorBrigadir/status/514767293562507264) for example, spotted in the wild, removed, then came back as Quote Tweets. Before it was a very good subtweet tactic.
-
-Custom Timelines are now "Collections" in TweetDeck, but morphed / merged with "Moments" for Web / Mobile. But Collections on TweetDeck still exist.
+Attempting to be accurate to the day for dates, and as exhaustive as possible. Main purpose was to have a reference for when to use certain filters in APIs, and originally created for keeping track of dates when writing about features. Edits / additions welcome.
 
 ### Why? 
 
-Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring. For example: Did you measure a shift in user behaviour? or was it a UI tweak? Is this a bot? or just someone using a new Thread feature to post tweets?  etc.
+Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring.
 
 ### What is a significant change?:
 
-Roughly, any change that is platform-wide is included, eg: Major changes to UI like Retweet button are included, but incremental changes to Apps may not be. Policy tweaks to TOS, Developer agreement aren't in here, but maybe should be. Probably shouldn't include events about individuals or groups (eg: some celebrity deleted / suspended etc). 
+Roughly, any change that is platform-wide is included, eg: Major changes to UI like Retweet button. Policy tweaks to TOS, Developer agreement aren't in here, but maybe should be. Suggestions on classifying this better are welcome.
 
 ### Data:
 
@@ -22,13 +20,13 @@ Roughly, any change that is platform-wide is included, eg: Major changes to UI l
 * `type`: Rough classification of the type of change
 	- `UX` is any change where users would be impacted somehow
 	- `ORG` is any major organisational change
-	- `API` any change that only developers may care about
+	- `API` any change that developers may care about
 
 * `description`: A Longer description of the change or impact.
 
 * `link`: Source URL for this change announcement or documentation.
 
-### Sources:
+### Main Sources:
 
 * Twitter Blog https://blog.twitter.com
 
