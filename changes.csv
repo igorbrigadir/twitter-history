@@ -1,10 +1,14 @@
 date,change,type,description,link
 2006-03-21,First Tweet,UX,@jack just setting up my twttr,https://twitter.com/jack/statuses/20
+2006-08-03,First Earthquake,EVT,"Users tweet about a mild earthquake in California. Highlights potential of Twitter for reporting live events",-
+2007-04-01,Twitter Inc,ORG,Twitter spins off into its own company.,https://blog.twitter.com/2007/incorporating-twitter
+2007-08-23,Hashtags,UX,"The hashtag (#), first proposed by user Chris Messina, debuts on Twitter.",https://twitter.com/chrismessina/status/223115412
 2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
 2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
 2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
 2009-11-12,What's Happening?,UX,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
 2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2010-04-13,Ads,UX,Twitter announces that it will start allowing for advertising in the form of promoted tweets,-
 2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
 2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
 2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
