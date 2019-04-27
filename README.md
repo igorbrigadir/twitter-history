@@ -30,16 +30,9 @@ Roughly, any change that is platform-wide is included, eg: Major changes to UI l
 ### Main Sources:
 
 * Twitter Blog https://blog.twitter.com
-
-* GNIP Tweet Timeline http://support.gnip.com/articles/tweet-timeline.html http://archive.ph/X87dl
-* GNIP PowerTrack http://support.gnip.com/articles/hpt-timeline.html http://archive.ph/k3l4u
-* GNIP Full Archive http://support.gnip.com/articles/fas-timeline.html http://archive.is/LCxgy
-
 * Tweet Timeline https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 * PowerTrack Timeline https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 * Full Archive Search Timeline https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-
 * Premium Docs https://developer.twitter.com/en/docs/tweets/search/overview/premium
-
 * Investor Reports https://investor.twitterinc.com/results.cfm
 * Developer Forums https://twittercommunity.com/c/announcements
