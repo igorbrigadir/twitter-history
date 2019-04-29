@@ -27,6 +27,13 @@ Roughly, any change that is platform-wide is included, eg: Major changes to UI l
 
 * `link`: Source URL for this change announcement or documentation.
 
+### Todo, Maybe:
+
+* Add column of affected fields and or endpoints, so CSV can be used automatically to check queries for issues (eg: warning that GEO data is unavailable for some date range, etc)
+* Bibtex entries for official source and a representative paper.
+* Extra column for source of change (docs, blog, other)
+* Move Org / Evt "changes" to a separate list, leave only changes with data impact.
+
 ### Main Sources:
 
 * Twitter Blog https://blog.twitter.com
