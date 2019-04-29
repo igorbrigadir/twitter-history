@@ -4,18 +4,22 @@ date,change,type,description,link
 2007-04-01,Twitter Inc,ORG,Twitter spins off into its own company.,https://blog.twitter.com/2007/incorporating-twitter
 2007-08-23,Hashtags,UX,"The hashtag (#), first proposed by user Chris Messina, debuts on Twitter.",https://twitter.com/chrismessina/status/223115412
 2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
+2009-06-12,Verified,UX,First Verified accounts appear,https://mashable.com/2009/06/11/twitter-verified-accounts-2/
 2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
 2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
 2009-11-12,What's Happening?,UX,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
 2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2010-01-22,Space Tweet,EVT,First Tweet from Space,https://twitter.com/astro_tj/status/8062317551
 2010-04-13,Ads,UX,Twitter announces that it will start allowing for advertising in the form of promoted tweets,-
 2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
 2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
+2011-04-05,New Design,UX,Major Redesign of the homepage,TODO
 2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
 2011-08-27,URLs indexed,API,URLs first indexed for filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
+2012-06-19,Replies in Profile,UX,Replies in profile are hidden by default,https://blog.twitter.com/en_us/a/2012/a-new-way-to-experience-profiles-with-or-without-replies.html
 2012-01-26,Country Witheld Content,ORG,Introduction of Country Witheld Content (Country-specific Tweet or Account Blocks),https://blog.twitter.com/official/en_us/a/2012/tweets-still-must-flow.html
 2012-07-02,Transparency,ORG,The first Transparency Report published details on government requests,https://blog.twitter.com/2012/twitter-transparency-report 
-2012-08-16,APIv1.1,API,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api 
+2012-08-16,API v1.1,API,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api 
 2013-01-22,64-bit User IDs,API,User IDs became snowflake IDs like tweet IDs,https://blog.twitter.com/2013/moving-to-64-bit-twitter-user-ids 
 2013-05-30,Bigger Lists,API,Previously lists were limited to 500 users. Lists expanded to 5000 users.,https://twitter.com/TwitterForNews/status/340206438364368896 
 2013-11-12,Collections,UX,Twitter introduced the ability to curate collections of tweets using TweetDeck. Initially called Custom Timelines.,https://blog.twitter.com/2013/introducing-custom-timelines-create-timelines-of-tweets-for-everyone 
@@ -31,3 +35,6 @@ date,change,type,description,link
 2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
 2017-09-26,Longer Tweets,UX,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
 2017-12-12,Threads,UX,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
+2018-05-14,Profile backgrounds,API,Removed deprecated profile background images (not profile banners) user.profile_background_image_url set to default value,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
+2018-05-23,Timezones,API,Timezone information in time_zone and utc_offset no longer public; user.time_zone set to null; user.utc_offset set to null,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
+2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
