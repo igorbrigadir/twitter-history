@@ -27,19 +27,19 @@ Roughly, any change that is platform-wide is included, eg: Major changes to UI l
 
 * `link`: Source URL for this change announcement or documentation.
 
+### Todo, Maybe:
+
+* Add column of affected fields and or endpoints, so CSV can be used automatically to check queries for issues (eg: warning that GEO data is unavailable for some date range, etc)
+* Bibtex entries for official source and a representative paper.
+* Extra column for source of change (docs, blog, other)
+* Move Org / Evt "changes" to a separate list, leave only changes with data impact.
+
 ### Main Sources:
 
 * Twitter Blog https://blog.twitter.com
-
-* GNIP Tweet Timeline http://support.gnip.com/articles/tweet-timeline.html http://archive.ph/X87dl
-* GNIP PowerTrack http://support.gnip.com/articles/hpt-timeline.html http://archive.ph/k3l4u
-* GNIP Full Archive http://support.gnip.com/articles/fas-timeline.html http://archive.is/LCxgy
-
 * Tweet Timeline https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 * PowerTrack Timeline https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 * Full Archive Search Timeline https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-
 * Premium Docs https://developer.twitter.com/en/docs/tweets/search/overview/premium
-
 * Investor Reports https://investor.twitterinc.com/results.cfm
 * Developer Forums https://twittercommunity.com/c/announcements
