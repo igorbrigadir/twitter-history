@@ -34,6 +34,7 @@ date,change,type,description,link
 2015-11-03,Likes,UX,Twitter Favourites changed to ``hearts'' or ``likes''.,https://blog.twitter.com/2015/hearts-on-twitter 
 2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
 2017-09-26,Longer Tweets,UX,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
+2017-02-22,Poll Metadata,API,Enterprise APIs have Poll metadata,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-12-12,Threads,UX,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
 2018-05-14,Profile backgrounds,API,Removed deprecated profile background images (not profile banners) user.profile_background_image_url set to default value,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-23,Timezones,API,Timezone information in time_zone and utc_offset no longer public; user.time_zone set to null; user.utc_offset set to null,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
