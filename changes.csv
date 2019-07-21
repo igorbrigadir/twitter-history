@@ -39,3 +39,4 @@ date,change,type,description,link
 2018-05-14,Profile backgrounds,API,Removed deprecated profile background images (not profile banners) user.profile_background_image_url set to default value,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-23,Timezones,API,Timezone information in time_zone and utc_offset no longer public; user.time_zone set to null; user.utc_offset set to null,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
+2019-07-15,New Design,UX,New Design based on mobile Twitter becomes default,https://blog.twitter.com/en_us/topics/product/2019/introducing-a-new-Twitter-dot-com.html 
