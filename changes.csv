@@ -93,3 +93,21 @@ date,change,type,description,link
 2016-07-28,Links,API,url_title: and url_description: supported via Enchanced URLs enrichment.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2017-01-17,Quote Tweets,API,‘quote_count’ and ‘reply_count’ available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2017-02-22,Polls,API,Poll metadata become available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
+2006-03-26,Language,API,lang:. An example of Tweet metadata being backfilled while generating the Search index.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2006-07-13,Mentions,API,has:mentions begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2006-10-06,Cashtags,API,has:symbols. $cashtags (or symbols) for discussing stock symbols does not become common until early 2009. Until then most usages were probably slang (e.g. $slang).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2006-10-26,Links,API,has:links begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2006-11-23,Hashtags,API,has:hashtags begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2007-01-30,Replies,API,First first-class @reply (in_reply_to_user_id) reply_to_status_id: begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2007-08-23,Hashtags,API,Hashtags emerge as a common convention for organizing topics and conversations. First real use a week later.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2009-05-15,Retweets,API,is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2009-08-13,Retweets,API,Final version of official Retweets is released with “RT @” pattern a verb set to ‘share’ and the ‘retweet_status’ attribute containing the original Tweet (thus approximately doubling the JSON payload size).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2010-03-06,Geo,API,has:geo bounding_box: and point_radius: geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2010-08-28,Media,API,has:videos (Until February 2015 this Operator matches on Tweets with links to select video hosting sites such as youtube.com vimeo.com and vivo.com).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2011-07-20,Media,API,has:media and has:images begin matching. Native photos officially announced August 9 2010.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2014-12-03,Links,API,(Approximately) Some Enhanced URL metadata with HTML title and description begins in payloads. Enhanced metadata more fully emerged in May 2016.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2015-02-10,Media,API,has:videos matches on ‘native’ Twitter videos.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2015-02-17,Geo,API,has:profile_geo profile_country: profile_region: profile_locality: Profile Geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2015-02-17,Geo,API,place_country: and place: Tweet geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2016-05-01,Links,API,Enhanced URL metadata more fully available and was officially announced as part of the Gnip 2.0 launch in August 2016. No associated Operators for these metadata with Search APIs.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
+2017-02-22,Polls,API,Poll metadata become available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
