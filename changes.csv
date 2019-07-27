@@ -41,3 +41,34 @@ date,change,type,description,link
 2018-05-23,Timezones,API,Timezone information in time_zone and utc_offset no longer public; user.time_zone set to null; user.utc_offset set to null,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
 2019-07-15,New Design,UX,New Design based on mobile Twitter becomes default,https://blog.twitter.com/en_us/topics/product/2019/introducing-a-new-Twitter-dot-com.html 
+2006-10-??,Replies,API,@replies becomes a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2006-10-??,Cashtags,API,$cashtags first emerge but using for stock ticker mentions does not become common until early 2009. $Cashtags became a clickable/searchable link in June 2012.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2006-11-??,Favourites,API,Favorites introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2007-01-??,Replies,API,@replies become a first-class object with a UI reply button with in_reply_to metadata.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2007-04-??,Retweets,API,Retweets become a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2007-08-??,Hashtags,API,#hashtags emerge as a primary tool for searching and organizing Tweets.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-02-??,Cashtags,API,$cashtags become a common convention for discussing stock ticker symbols.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-05-??,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-06-??,Verifi,API,Verified accounts introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-08-??,Verified accounts,API,Retweets a first-class object with “RT @” pattern and new retweet_status metadata.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-10-??,Lists,API,List feature launched.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-11-??,Geo,API,Tweet Geotagging API is launched providing the first method for users to share location via third-party apps.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2010-06-??,Geo,API,Twitter Places introduced for geo-tagging Tweets.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2010-08-??,Publishing,API,Tweet button for websites is launched. Made sharing links easier.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2011-05-??,Publishing,API,Follow button introduced making it easier to follow accounts associated with websites.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2011-08-??,Photos,API,Native photos introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2012-06-??,Cashtags,API,$Cashtags become a clickable/searchable link.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2014-03-??,Photos,API,Photo tagging and up to four photos supported. Extended Twitter Entities metadata was introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2014-04-??,Emojis,API,Emojis are natively supported in Twitter UI. Emojis were commonly used in Tweets since at least 2008.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2015-04-??,Geo,API,A change in Twitter’s ‘post Tweet’ user-interface design results in fewer Tweets being geo-tagged.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2015-10-??,Polls,API,Twitter Polls introduced. Polls originally supported two choices with a 24-hour voting period. In November Polls started supporting four choices with voting periods from 5 minutes to seven days. Poll metadata made available (enriched native format only) in February 2017.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-02-??,Gifs,API,Searchable GIFs natively hosted in Tweet compose.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-05-??,Extended Tweets,API,“Doing More with 140” (dmw140) announced stating plans for new ways of handling Replies and attached media with respect to a Tweet’s 140-character message.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-06-??,Video,API,Native video support,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-06-??,Quote Tweets,API,Quoted Retweets generally available.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-06-??,Stickers,API,Stickers introduced for adding to photos.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-09-??,Extended Tweets,API,‘Native attachments’ introduced with trailing URL not counted towards 140 characters (“dmw140 part 1”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2017-02-??,Polls,API,Twitter Poll metadata included in Tweet metadata (enriched native format only).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2017-04-??,Replies,API,‘Simplified Replies’ introduced with replied-to-accounts not counted towards 140 characters (“dmw140 part 2”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2018-05-??,GDPR,API,GDPR updates user.time_zone set to null user.utc_offset set to null user.profile_background_image_url set to default value,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2018-06-??,Quote Tweets,API,Updating quoteTweet formatting changes. quoted_status_permalink,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
