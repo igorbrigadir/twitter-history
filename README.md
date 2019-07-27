@@ -5,7 +5,7 @@ Attempting to be accurate to the day for dates, and as exhaustive as possible. T
 
 ### Why? 
 
-Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring.
+Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring. It might be useful to consult entries if you have crawls for old tweets, to see what changes / differences you may come across.
 
 ### What is a significant change?:
 
