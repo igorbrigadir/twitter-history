@@ -5,24 +5,24 @@ date,change,type,description,link
 2006-08-03,First Earthquake,EVT,"Users tweet about a mild earthquake in California. Highlights potential of Twitter for reporting live events",-
 2006-10-06,Cashtags,API,has:symbols. $cashtags (or symbols) for discussing stock symbols does not become common until early 2009. Until then most usages were probably slang (e.g. $slang).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2006-10-26,Links,API,has:links begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2006-10-??,Replies,API,@replies becomes a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2006-10-??,Replies,UX,@replies becomes a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2006-11-23,Hashtags,API,has:hashtags begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2006-11-??,Favourites,API,Favorites introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2006-11-14,Favourites,UX,Favorites introduced.,https://blog.twitter.com/official/en_us/a/2006/six-more-twitter-updates.html
+2006-11-14,Deletions,UX,Tweets now have a delete button,https://blog.twitter.com/official/en_us/a/2006/six-more-twitter-updates.html
+2006-11-14,DMs,UX,Direct messages are introduced as 'notes directly to you and we archive them on the web in case you choose not to receive them via SMS or IM',https://blog.twitter.com/official/en_us/a/2006/six-more-twitter-updates.html
+2006-11-14,Timestamps,UX,Timestamps appear as dates instead of relative '2 minutes ago',https://blog.twitter.com/official/en_us/a/2006/six-more-twitter-updates.html
+2006-11-14,User Search,UX,You can search by name email or phone,https://blog.twitter.com/official/en_us/a/2006/six-more-twitter-updates.html
 2007-01-03,Verified,API,is:verified begins matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2007-01-30,Replies,API,First first-class @reply (in_reply_to_user_id) reply_to_status_id: begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2007-01-30,Replies,API,to: and in_reply_to_status_id: @Replies become a first-class event after becoming a user-convention in October 2006.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2007-01-??,Replies,API,@replies become a first-class object with a UI reply button with in_reply_to metadata.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2007-01-30,Replies,API,@replies become a first-class object with a UI reply button with in_reply_to metadata. to: and in_reply_to_status_id: @Replies become a first-class event after becoming a user-convention in October 2006. @reply (in_reply_to_user_id) reply_to_status_id: begins matching.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2007-04-01,Hashtags,API,has:hashtags and # Operator. Hashtags become a common ‘organizing’ tool in August.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2007-04-01,Twitter Inc,ORG,Twitter spins off into its own company.,https://blog.twitter.com/2007/incorporating-twitter
 2007-04-??,Retweets,API,Retweets become a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2007-08-23,Hashtags,API,Hashtags emerge as a common convention for organizing topics and conversations. First real use a week later.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2007-08-23,Hashtags,UX,"The hashtag (#), first proposed by user Chris Messina, debuts on Twitter.",https://twitter.com/chrismessina/status/223115412
-2007-08-??,Hashtags,API,#hashtags emerge as a primary tool for searching and organizing Tweets.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2007-08-23,Hashtags,UX,The hashtag (#) first proposed by user Chris Messina debuts on Twitter. #hashtags emerge as a primary tool for searching and organizing Tweets.,https://twitter.com/chrismessina/status/223115412
 2008-02-27,Links,API,has:links and url: begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2008-02-27,Mentions,API,has:mentions and @ Operator begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2008-09-??,Emoji,API,emoji signal begins appears in HPT estimates.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2009-02-??,Cashtags,API,$cashtags become a common convention for discussing stock ticker symbols.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2009-02-??,Cashtags,UX,Cashtags become common convention,-
 2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
 2009-05-15,Retweets,API,is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2009-05-??,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
