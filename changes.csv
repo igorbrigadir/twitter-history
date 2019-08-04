@@ -20,32 +20,30 @@ date,change,type,description,link
 2007-08-23,Hashtags,UX,The hashtag (#) first proposed by user Chris Messina debuts on Twitter. #hashtags emerge as a primary tool for searching and organizing Tweets.,https://twitter.com/chrismessina/status/223115412
 2008-02-27,Links,API,has:links and url: begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2008-02-27,Mentions,API,has:mentions and @ Operator begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2008-09-??,Emoji,API,emoji signal begins appears in HPT estimates.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
+2008-09-??,Emoji,API,emoji signal begins to appear in HPT estimates.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2009-02-??,Cashtags,API,$cashtags become a common convention for discussing stock ticker symbols.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
 2009-05-15,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body. is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-06-12,Verified,UX,First Verified accounts appear: begin with public officials public agencies famous artists athletes and other well known individuals at risk of impersonation,https://blog.twitter.com/en_us/a/2009/not-playing-ball.html
 2009-08-13,Retweets,API,Final version of official Retweets is released with “RT @” pattern a verb set to ‘share’ and the ‘retweet_status’ attribute containing the original Tweet (thus approximately doubling the JSON payload size).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
-2009-10-??,Lists,API,List feature launched.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
 2009-11-12,What's Happening?,UX,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
-2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets,https://developer.twitter.com/en/docs/tweets/search/overview/premium
-2009-11-??,Geo,API,Tweet Geotagging API is launched providing the first method for users to share location via third-party apps.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets. Tweet Geotagging API is launched providing the first method for users to share location via third-party apps.,https://developer.twitter.com/en/docs/tweets/search/overview/premium
 2010-01-22,Space Tweet,EVT,First Tweet from Space,https://twitter.com/astro_tj/status/8062317551
 2010-03-06,Geo,API,has:geo bounding_box: and point_radius: geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2010-04-13,Ads,UX,Twitter announces that it will start allowing for advertising in the form of promoted tweets,TODO: Link?
 2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
 2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
-2010-06-??,Geo,API,Twitter Places introduced for geo-tagging Tweets.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2010-06-14,Geo,API,Twitter Places introduced for geo-tagging Tweets.,https://blog.twitter.com/en_us/a/2010/twitter-places-more-context-for-your-tweets.html
 2010-08-28,Media,API,has:videos (Until February 2015 this Operator matches on Tweets with links to select video hosting sites such as youtube.com vimeo.com and vivo.com).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2010-08-??,Publishing,API,Tweet button for websites is launched. Made sharing links easier.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2010-08-12,Publishing,API,Tweet button for websites is launched. Made sharing links easier.,https://blog.twitter.com/en_us/a/2010/pushing-our-tweet-button.html
 2011-01-01,Counts,API,Followers and friends counts begin to be non-zero. followers_count: and friends_count: start having non-zero values to match on.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-01-01,Profiles,API,User profiles begin to match profiles as they were when Tweet posted. Tweets before this date have their user profiles set to how they existed in September 2011.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-01-01,Retweets,API,is:retweet and retweet_of_status_id:. Retweets became a convention as early as April 2007 but matching before this date depends on search for “RT @” or “Via @” patterns.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-04-05,New Design,UX,Major Redesign of the homepage,TODO: Link?
 2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
-2011-05-??,Publishing,API,Follow button introduced making it easier to follow accounts associated with websites.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2011-05-31,Publishing,API,Follow button introduced making it easier to follow accounts associated with websites.,https://blog.twitter.com/en_us/a/2011/introducing-the-follow-button.html
 2011-06-02,Media,API,has:images and has:media begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-07-20,Media,API,has:media and has:images begin matching. Native photos officially announced August 9 2010.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2011-08-27,URLs indexed,API,URLs first indexed for filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
