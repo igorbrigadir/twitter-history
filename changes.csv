@@ -99,9 +99,7 @@ date,change,type,description,link
 2016-09-??,Extended Tweets,API,‘Native attachments’ introduced with trailing URL not counted towards 140 characters (“dmw140 part 1”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-01-17,Quote Tweets,API,‘quote_count’ and ‘reply_count’ available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2017-02-22,Poll Metadata,API,Enterprise APIs have Poll metadata,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2017-02-22,Polls,API,Poll metadata become available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2017-02-22,Polls,API,Poll metadata become available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2017-02-??,Polls,API,Twitter Poll metadata included in Tweet metadata (enriched native format only).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2017-02-22,Polls,API,Twitter Poll metadata included in Tweet metadata (enriched native format only).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-04-??,Replies,API,‘Simplified Replies’ introduced with replied-to-accounts not counted towards 140 characters (“dmw140 part 2”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-09-26,Longer Tweets,UX,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
 2017-12-12,Threads,UX,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
