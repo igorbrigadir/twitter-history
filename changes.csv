@@ -93,7 +93,7 @@ date,change,type,description,link
 2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
 2016-06-??,Quote Tweets,API,Quoted Retweets generally available.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2016-06-14,Self Retweets,UX,You can now retweet your own tweets,https://twitter.com/twitter/status/742749353689780224
-2016-06-??,Stickers,API,Stickers introduced for adding to photos.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-06-27,Stickers,API,Stickers introduced for adding to photos.,https://blog.twitter.com/en_us/a/2016/introducing-stickers-on-twitter.html
 2016-06-??,Video,API,Native video support,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2016-07-28,Links,API,url_title: and url_description: supported via Enchanced URLs enrichment.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2016-09-??,Extended Tweets,API,‘Native attachments’ introduced with trailing URL not counted towards 140 characters (“dmw140 part 1”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
