@@ -17,19 +17,15 @@ date,change,type,description,link
 2007-04-01,Hashtags,API,has:hashtags and # Operator. Hashtags become a common ‘organizing’ tool in August.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2007-04-01,Twitter Inc,ORG,Twitter spins off into its own company.,https://blog.twitter.com/2007/incorporating-twitter
 2007-04-??,Retweets,API,Retweets become a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2007-08-23,Hashtags,API,Hashtags emerge as a common convention for organizing topics and conversations. First real use a week later.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2007-08-23,Hashtags,UX,The hashtag (#) first proposed by user Chris Messina debuts on Twitter. #hashtags emerge as a primary tool for searching and organizing Tweets.,https://twitter.com/chrismessina/status/223115412
 2008-02-27,Links,API,has:links and url: begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2008-02-27,Mentions,API,has:mentions and @ Operator begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2008-09-??,Emoji,API,emoji signal begins appears in HPT estimates.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2009-02-??,Cashtags,API,$cashtags become a common convention for discussing stock ticker symbols.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-04-30,Search,UX,Users gain the ability to search and discover content in real-time,https://blog.twitter.com/2009/twitter-search-for-everyone
-2009-05-15,Retweets,API,is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2009-05-??,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2009-06-12,Verified,UX,First Verified accounts appear,https://mashable.com/2009/06/11/twitter-verified-accounts-2/
-2009-06-??,Verifi,API,Verified accounts introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-05-15,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body. is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2009-06-12,Verified,UX,First Verified accounts appear: begin with public officials public agencies famous artists athletes and other well known individuals at risk of impersonation,https://blog.twitter.com/en_us/a/2009/not-playing-ball.html
 2009-08-13,Retweets,API,Final version of official Retweets is released with “RT @” pattern a verb set to ‘share’ and the ‘retweet_status’ attribute containing the original Tweet (thus approximately doubling the JSON payload size).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2009-08-??,Verified accounts,API,Retweets a first-class object with “RT @” pattern and new retweet_status metadata.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
 2009-10-??,Lists,API,List feature launched.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
@@ -94,6 +90,7 @@ date,change,type,description,link
 2016-06-14,Self Retweets,UX,You can now retweet your own tweets,https://twitter.com/twitter/status/742749353689780224
 2016-06-27,Stickers,API,Stickers introduced for adding to photos.,https://blog.twitter.com/en_us/a/2016/introducing-stickers-on-twitter.html
 2016-06-??,Video,API,Native video support,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2016-07-19,Verified,UX,Started taking public requests for Verification,https://blog.twitter.com/en_us/a/2016/announcing-an-application-process-for-verified-accounts-0.html
 2016-07-28,Links,API,url_title: and url_description: supported via Enchanced URLs enrichment.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2016-09-??,Extended Tweets,API,‘Native attachments’ introduced with trailing URL not counted towards 140 characters (“dmw140 part 1”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-01-17,Quote Tweets,API,‘quote_count’ and ‘reply_count’ available in enriched native format. No associated Operators for these metadata.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
@@ -102,6 +99,7 @@ date,change,type,description,link
 2017-03-30,Replies,API,‘Simplified Replies’ introduced with replied-to-accounts not counted towards 140 characters (“dmw140 part 2”).,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2017-09-26,Longer Tweets,UX,Languages except Japanese Chinese and Korean can tweet 280 characters.,https://blog.twitter.com/official/en_us/topics/product/2017/Giving-you-more-characters-to-express-yourself.html
 2017-12-12,Threads,UX,Ability to post entire threads of tweets instead of manually self replying,https://blog.twitter.com/official/en_us/topics/product/2017/nicethreads.html
+2018-02-26,Verified,UX,Public Access to Verification requests and Verification 'paused',https://twitter.com/verified/status/968243242184491008
 2018-05-14,Profile backgrounds,API,Removed deprecated profile background images (not profile banners) user.profile_background_image_url set to default value,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-23,Timezones,API,Timezone information in time_zone and utc_offset no longer public; user.time_zone set to null; user.utc_offset set to null,https://twittercommunity.com/t/upcoming-changes-to-the-developer-platform/104603
 2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
