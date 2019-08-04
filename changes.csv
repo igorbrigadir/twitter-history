@@ -5,7 +5,6 @@ date,change,type,description,link
 2006-08-03,First Earthquake,EVT,"Users tweet about a mild earthquake in California. Highlights potential of Twitter for reporting live events",-
 2006-10-06,Cashtags,API,has:symbols. $cashtags (or symbols) for discussing stock symbols does not become common until early 2009. Until then most usages were probably slang (e.g. $slang).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2006-10-26,Links,API,has:links begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2006-10-??,Cashtags,API,$cashtags first emerge but using for stock ticker mentions does not become common until early 2009. $Cashtags became a clickable/searchable link in June 2012.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2006-10-??,Replies,API,@replies becomes a convention.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2006-11-23,Hashtags,API,has:hashtags begins matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2006-11-??,Favourites,API,Favorites introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
