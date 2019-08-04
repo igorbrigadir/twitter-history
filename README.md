@@ -1,11 +1,14 @@
 # twitter-history
+
+![Past Twitter Logos](https://repository-images.githubusercontent.com/132915626/ba1c6900-6b5f-11e9-822d-5463a733c2a9)
+
 Tracking significant changes to the Twitter API or platform as a whole.
 
 Attempting to be accurate to the day for dates, and as exhaustive as possible. The main purpose was to have a reference for when to use certain filters in APIs, and originally created for keeping track of dates when writing about features. Edits / additions welcome.
 
 ### Why? 
 
-Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring.
+Archiving mostly, but also as a reference for analysis, for when things can be attributed to platform changes rather than some other changes you may be interested in measuring. It might be useful to consult entries if you have crawls for old tweets, to see what changes / differences you may come across.
 
 ### What is a significant change?:
 
