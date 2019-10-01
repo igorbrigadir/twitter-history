@@ -49,6 +49,7 @@ date,change,type,description,link
 2011-08-27,URLs indexed,API,URLs first indexed for filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
 2011-08-15,Photos,API,Native photos introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2011-09-01,Geo,API,has:geo place: place_country: bounding_box: and point_radius:.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
+2011-09-30,64-bit DM IDs,API,DM Message Ids become snowflake Ids,https://blog.twitter.com/developer/en_us/a/2011/direct-messages-going-snowflake-on-sep-30-2011.html
 2012-01-26,Country Witheld Content,ORG,Introduction of Country Witheld Content (Country-specific Tweet or Account Blocks),https://blog.twitter.com/official/en_us/a/2012/tweets-still-must-flow.html
 2012-03-26,Language,API,Gnip introduces new data enrichments. Gnip Language: gnip.lang language metadata. No longer filtered for. lang: Operator now based solely on root level Twitter language classification.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2012-03-26,Links,API,Gnip introduces new data enrichments. Expanded URLs: URL metadata from this date until launch of HPT 2.0 will contain gnip.expanded_url fully unwound URL. URL matching before this date will be based on URL as entered by the user. If the Tweet includes a shortened URL e.g. bit.ly there will be no expanded URL to match on.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
