@@ -1,8 +1,10 @@
 # twitter-history
 
+[![DOI](https://zenodo.org/badge/132915626.svg)](https://zenodo.org/badge/latestdoi/132915626)
+
 ![Past Twitter Logos](https://repository-images.githubusercontent.com/132915626/ba1c6900-6b5f-11e9-822d-5463a733c2a9)
 
-Tracking significant changes to the Twitter API or platform as a whole.
+Tracking significant changes to the Twitter API or platform as a whole. These largely apply to `v1.1` and Premium APIs, not for `v2`.
 
 Attempting to be accurate to the day for dates, and as exhaustive as possible. The main purpose was to have a reference for when to use certain filters in APIs, and originally created for keeping track of dates when writing about features. Edits / additions welcome.
 
