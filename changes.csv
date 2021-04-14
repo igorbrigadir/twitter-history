@@ -104,4 +104,5 @@ date,change,type,description,link
 2018-05-23,GDPR,API,GDPR updates user.time_zone set to null user.utc_offset set to null user.profile_background_image_url set to default value,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
 2018-05-10,Quote Tweets,API,Updating quoteTweet formatting changes. quoted_status_permalink,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2019-06-18,Geo,UX,Ability to tag precise location in Tweets removed, only available for photos,https://twitter.com/TwitterSupport/status/1141039841993355264
 2019-07-15,New Design,UX,New Design based on mobile Twitter becomes default,https://blog.twitter.com/en_us/topics/product/2019/introducing-a-new-Twitter-dot-com.html 
