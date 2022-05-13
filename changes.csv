@@ -26,15 +26,15 @@ date,change,type,description,link
 2009-05-15,Retweets,API,Retweet ‘beta’ is introduced with “Via @” prepended to Tweet body. is:retweet. Note that this Operator starts matching with the ‘beta’ release of official Retweets and its “Via @’ pattern. During this beta period the Tweet verb is ‘post’ and the original Tweet is not included in the payload.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2009-06-12,Verified,UX,First Verified accounts appear: begin with public officials public agencies famous artists athletes and other well known individuals at risk of impersonation,https://blog.twitter.com/en_us/a/2009/not-playing-ball.html
 2009-08-13,Retweets,API,Final version of official Retweets is released with “RT @” pattern a verb set to ‘share’ and the ‘retweet_status’ attribute containing the original Tweet (thus approximately doubling the JSON payload size).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that 
-2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout 
+2009-10-30,Lists,UX,Lists added the ability to group users.,https://blog.twitter.com/2009/theres-a-list-for-that
+2009-11-06,Retweets,UX,Now a native feature - previously retweets were created manually by copy pasting text.,https://blog.twitter.com/2009/retweet-limited-rollout
 2009-11-12,What's Happening?,UX,Default prompt for new tweets changed from ``What are you doing?'' to ``What's Happening?'',https://blog.twitter.com/2009/whats-happening
 2009-11-19,Geo Tweets,UX,First Geo-tagged Tweets. Tweet Geotagging API is launched providing the first method for users to share location via third-party apps.,https://developer.twitter.com/en/docs/tweets/search/overview/premium
 2010-01-22,Space Tweet,EVT,First Tweet from Space,https://twitter.com/astro_tj/status/8062317551
 2010-03-06,Geo,API,has:geo bounding_box: and point_radius: geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2010-04-13,Ads,UX,Twitter announces that it will start allowing for advertising in the form of promoted tweets,TODO: Link?
-2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake 
-2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter 
+2010-06-01,64-bit Tweet IDs,API,Tweet IDs are no longer sequential,https://blog.twitter.com/2010/announcing-snowflake
+2010-06-08,t.co,API,All links now shortened with t.co making link shorteners largely redundant,https://blog.twitter.com/2010/links-and-twitter-length-shouldn-t-matter
 2010-06-14,Geo,API,Twitter Places introduced for geo-tagging Tweets.,https://blog.twitter.com/en_us/a/2010/twitter-places-more-context-for-your-tweets.html
 2010-08-28,Media,API,has:videos (Until February 2015 this Operator matches on Tweets with links to select video hosting sites such as youtube.com vimeo.com and vivo.com).,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2010-08-12,Publishing,API,Tweet button for websites is launched. Made sharing links easier.,https://blog.twitter.com/en_us/a/2010/pushing-our-tweet-button.html
@@ -42,7 +42,7 @@ date,change,type,description,link
 2011-01-01,Profiles,API,User profiles begin to match profiles as they were when Tweet posted. Tweets before this date have their user profiles set to how they existed in September 2011.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-01-01,Retweets,API,is:retweet and retweet_of_status_id:. Retweets became a convention as early as April 2007 but matching before this date depends on search for “RT @” or “Via @” patterns.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-04-05,New Design,UX,Major Redesign of the homepage,TODO: Link?
-2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck 
+2011-05-25,TweetDeck,ORG,Twitter buys TweetDeck. First version was released in 2008.,https://en.wikipedia.org/wiki/TweetDeck
 2011-05-31,Publishing,API,Follow button introduced making it easier to follow accounts associated with websites.,https://blog.twitter.com/en_us/a/2011/introducing-the-follow-button.html
 2011-06-02,Media,API,Powertrack has:images and has:media begin matching.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2011-07-20,Media,API,Fullarchive Search has:media and has:images begin matching. Native photos officially announced August 9 2010.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
@@ -55,17 +55,17 @@ date,change,type,description,link
 2012-03-26,Links,API,Gnip introduces new data enrichments. Expanded URLs: URL metadata from this date until launch of HPT 2.0 will contain gnip.expanded_url fully unwound URL. URL matching before this date will be based on URL as entered by the user. If the Tweet includes a shortened URL e.g. bit.ly there will be no expanded URL to match on.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2012-06-19,Replies in Profile,UX,Replies in profile are hidden by default,https://blog.twitter.com/en_us/a/2012/a-new-way-to-experience-profiles-with-or-without-replies.html
 2012-07-31,Cashtags,API,$Cashtags become a clickable/searchable link.,https://twitter.com/twitter/status/230098997010911233
-2012-07-02,Transparency,ORG,The first Transparency Report published details on government requests,https://blog.twitter.com/2012/twitter-transparency-report 
-2012-08-16,API v1.1,API,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api 
+2012-07-02,Transparency,ORG,The first Transparency Report published details on government requests,https://blog.twitter.com/2012/twitter-transparency-report
+2012-08-16,API v1.1,API,Significant changes to the API included removing the ability to request all replies to a tweet and different rate limits.,https://blog.twitter.com/2012/changes-coming-to-twitter-api
 2012-11-??,Language,API,lang: Operator (matching on Twitter language classification).,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2013-01-22,64-bit User IDs,API,User IDs became snowflake IDs like tweet IDs,https://blog.twitter.com/2013/moving-to-64-bit-twitter-user-ids 
-2013-05-30,Bigger Lists,API,Previously lists were limited to 500 users. Lists expanded to 5000 users.,https://twitter.com/TwitterForNews/status/340206438364368896 
+2013-01-22,64-bit User IDs,API,User IDs became snowflake IDs like tweet IDs,https://blog.twitter.com/2013/moving-to-64-bit-twitter-user-ids
+2013-05-30,Bigger Lists,API,Previously lists were limited to 500 users. Lists expanded to 5000 users.,https://twitter.com/TwitterForNews/status/340206438364368896
 2013-06-04,Geo,API,has:profile_geo profile_point_radius: profile_bounding_box: profile_country: profile_region: profile_subregion: and profile_locality:.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
 2013-08-20,Cashtags,API,has:symbols and $ Operator.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2013-11-12,Collections,UX,Twitter introduced the ability to curate collections of tweets using TweetDeck. Initially called Custom Timelines.,https://blog.twitter.com/2013/introducing-custom-timelines-create-timelines-of-tweets-for-everyone 
+2013-11-12,Collections,UX,Twitter introduced the ability to curate collections of tweets using TweetDeck. Initially called Custom Timelines.,https://blog.twitter.com/2013/introducing-custom-timelines-create-timelines-of-tweets-for-everyone
 2014-03-??,Photos,API,Photo tagging and up to four photos supported. Extended Twitter Entities metadata was introduced.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2014-04-??,Emojis,API,Emojis are natively supported in Twitter UI. Emojis were commonly used in Tweets since at least 2008.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2014-11-18,Historical Tweets,UX,Web Search on Twitter became capable of retrieving any historical tweet since 2006. API access is still restricted to a few days.,https://blog.twitter.com/2014/building-a-complete-tweet-index 
+2014-11-18,Historical Tweets,UX,Web Search on Twitter became capable of retrieving any historical tweet since 2006. API access is still restricted to a few days.,https://blog.twitter.com/2014/building-a-complete-tweet-index
 2014-12-01,URL Expansion,API,Enhanced URL expansion metadata (website titles and descriptions),https://developer.twitter.com/en/docs/tweets/search/overview/premium
 2014-12-03,Links,API,(Approximately) Some Enhanced URL metadata with HTML title and description begins in payloads. Enhanced metadata more fully emerged in May 2016.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2015-02-10,Media,API,has:videos begins matching on videos shared through Twitter’s user-interface (‘native’ videos).,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
@@ -73,18 +73,18 @@ date,change,type,description,link
 2015-02-17,Geo,API,has:profile_geo profile_country: profile_region: profile_locality: Profile Geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2015-02-17,Geo,API,place_country: and place: Tweet geo Operators begin matching.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
 2015-02-17,Profile Geo,API,Profile Geo enrichment metadata and filtering,https://developer.twitter.com/en/docs/tweets/search/overview/premium
-2015-04-01,New Profiles,UX,Significant changes to User Profiles,https://blog.twitter.com/2015/designing-the-new-twitter-profiles 
-2015-04-06,Quote Tweets,UX,Other tweets can be embedded - introducing a new way to disseminate information.,https://twitter.com/twitter/status/585225218093932544 
+2015-04-01,New Profiles,UX,Significant changes to User Profiles,https://blog.twitter.com/2015/designing-the-new-twitter-profiles
+2015-04-06,Quote Tweets,UX,Other tweets can be embedded - introducing a new way to disseminate information.,https://twitter.com/twitter/status/585225218093932544
 2015-04-??,Geo,API,A change in Twitter’s ‘post Tweet’ user-interface design results in fewer Tweets being geo-tagged.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2015-08-06,Moments,UX,Like Collections but emphasising media. News organisations were the first to access this feature.,https://blog.twitter.com/2015/moments-the-best-of-twitter-in-an-instant-0 
-2015-08-11,Full Archive Search,API,Commercial Access to Historical Public Tweets,https://blog.twitter.com/2015/full-archive-search-api 
+2015-08-06,Moments,UX,Like Collections but emphasising media. News organisations were the first to access this feature.,https://blog.twitter.com/2015/moments-the-best-of-twitter-in-an-instant-0
+2015-08-11,Full Archive Search,API,Commercial Access to Historical Public Tweets,https://blog.twitter.com/2015/full-archive-search-api
 2015-09-28,Quote Tweets,API,is:quote matching on Quoted Tweets.,https://developer.twitter.com/en/docs/tweets/batch-historical/guides/hpt-timeline.html
-2015-10-06,Share Counts,API,Twitter removed the ability to see how many times a URL has been shared.,https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform 
+2015-10-06,Share Counts,API,Twitter removed the ability to see how many times a URL has been shared.,https://blog.twitter.com/2015/hard-decisions-for-a-sustainable-platform
 2015-10-??,Polls,API,Twitter Polls introduced. Polls originally supported two choices with a 24-hour voting period. In November Polls started supporting four choices with voting periods from 5 minutes to seven days. Poll metadata made available (enriched native format only) in February 2017.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
-2015-11-03,Likes,UX,Twitter Favourites changed to ``hearts'' or ``likes''.,https://blog.twitter.com/2015/hearts-on-twitter 
+2015-11-03,Likes,UX,Twitter Favourites changed to ``hearts'' or ``likes''.,https://blog.twitter.com/2015/hearts-on-twitter
 2016-02-??,Gifs,API,Searchable GIFs natively hosted in Tweet compose.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2016-05-01,Links,API,Enhanced URL metadata more fully available and was officially announced as part of the Gnip 2.0 launch in August 2016. No associated Operators for these metadata with Search APIs.,https://developer.twitter.com/en/docs/tweets/search/guides/fas-timeline
-2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters 
+2016-05-24,Extended Tweets,UX,Photos quoted tweets videos and mentions no longer count towards 140 character limit making longer tweets possible.,https://blog.twitter.com/2016/doing-more-with-140-characters
 2016-06-??,Quote Tweets,API,Quoted Retweets generally available.,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2016-06-14,Self Retweets,UX,You can now retweet your own tweets,https://twitter.com/twitter/status/742749353689780224
 2016-06-27,Stickers,API,Stickers introduced for adding to photos.,https://blog.twitter.com/en_us/a/2016/introducing-stickers-on-twitter.html
@@ -104,5 +104,8 @@ date,change,type,description,link
 2018-05-23,GDPR,API,GDPR updates user.time_zone set to null user.utc_offset set to null user.profile_background_image_url set to default value,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
 2018-05-25,GDPR,UX,Privacy policy and settings for GDPR compliance introduced,https://blog.twitter.com/official/en_us/topics/company/2018/continuing-our-commitments-to-privacy-and-transparency.html
 2018-05-10,Quote Tweets,API,Updating quoteTweet formatting changes. quoted_status_permalink,https://developer.twitter.com/en/docs/tweets/data-dictionary/guides/tweet-timeline
+2019-05-14,Developer Labs,API,Announcement of the Developer Labs program for testing and feedback on API products in development,https://blog.twitter.com/developer/en_us/topics/tools/2019/building-the-next-generation-of-the-twitter-api
 2019-06-18,Geo,UX,Ability to tag precise location in Tweets removed and only available for photos,https://twitter.com/TwitterSupport/status/1141039841993355264
-2019-07-15,New Design,UX,New Design based on mobile Twitter becomes default,https://blog.twitter.com/en_us/topics/product/2019/introducing-a-new-Twitter-dot-com.html 
+2019-07-15,New Design,UX,New Design based on mobile Twitter becomes default,https://blog.twitter.com/en_us/topics/product/2019/introducing-a-new-Twitter-dot-com.html
+2020-07-16,API v2,API,Announcement of API v2 with a delayed launch,https://blog.twitter.com/developer/en_us/topics/tools/2020/introducing_new_twitter_api
+2021-01-26,Academic API v2, API, Announcement of the Academic Access product track on API v2,https://blog.twitter.com/developer/en_us/topics/tools/2021/enabling-the-future-of-academic-research-with-the-twitter-api
